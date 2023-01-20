@@ -1,5 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
 body {
     background-color: #c0deff;  /*#c0deff #7b2869*/
+    
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 main {
